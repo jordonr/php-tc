@@ -1,0 +1,13 @@
+{
+    "require": {
+	"monolog/monolog": "1.10.*@dev",
+	"swiftmailer/swiftmailer": "5.2.*@dev",
+	"tedivm/fetch": "dev-master"
+    },
+    "autoload": {
+	"psr-0": {
+		"Command": "app/",
+		"Helper": "app/"
+	}
+    }
+}
